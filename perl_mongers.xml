@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE perl_mongers PUBLIC "-//Perl Mongers//DTD for Perl user groups//EN" "http://www.pm.org/groups/perl_mongers.dtd">
+<!-- This file is maintained by <support@pm.org>
+     https://github.com/perlorg/www.pm.org/blob/master/perl_mongers.xml
+--><perl_mongers>
+
+<group id="9999" status="active">
+    <name>Okinawa.pm</name>
+    <location>
+        <city>Nishihara City</city>
+        <state>Okinawa</state>
+        <region></region>
+        <country>Japan</country>
+        <continent>Asia</continent>
+        <longitude>127.765251</longitude>
+        <latitude>26.248165</latitude>
+    </location>
+    <!-- 1 -->
+    <tsar>
+        <name>Toshiaki Yokoda</name>
+        <email type="personal">
+            <user></user>
+            <domain></domain>
+        </email>
+    </tsar>
+    <!-- 2 -->
+    <tsar>
+        <name>K</name>
+        <email type="personal">
+            <user></user>
+            <domain></domain>
+        </email>
+    </tsar>
+    <!-- 3 -->
+    <tsar>
+        <name>Masaaki Saito</name>
+        <email type="personal">
+            <user>masakyst.public</user>
+            <domain>gmail.com</domain>
+        </email>
+    </tsar>
+    <!-- 4 -->
+    <tsar>
+        <name>sela</name>
+        <email type="personal">
+            <user></user>
+            <domain></domain>
+        </email>
+    </tsar>
+    <!-- 5 -->
+    <tsar>
+        <name>yasu47b</name>
+        <email type="personal">
+            <user></user>
+            <domain></domain>
+        </email>
+    </tsar>
+    <web>http://okinawa.pm.org</web>
+    <date type="inception">20160129</date>
+</group>
+
+</perl_mongers>
