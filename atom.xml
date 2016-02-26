@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Okinawa Perl Mongers</title>
+<link rel="alternate" href="http://okinawa.pm.org/" />
+<author>masakyst</author>
+<generator uri="https://github.com/Songmu/p5-Riji" version="v0.9.7">Perl Riji</generator>
+<id>tag:okinawa.pm.org,2016-02-24:</id>
+<updated>2016-02-24T17:49:40+09:00</updated>
+<entry>
+<title type="text">公式 Perl Mongers に承認されました</title>
+<link href="http://okinawa.pm.org/entry/20160219.html" />
+<author>
+<name>Masaaki Saito</name>
+</author>
+<content type="html">
+<![CDATA[
+
+<p>Okinawa Perl Mongers(Okinawa.pm)は、沖縄県を中心とするPerl ユーザのコミュニティ形成を目指す非営利の団体です。</p>
+
+<p>主な活動内容はプログラミング言語 Perl に関係するメンバー主催の勉強会やインターネット上での啓蒙活動や情報交換です。</p>
+
+<p>Perl に興味があり、スキル向上を望む方であればどなたでも無料で参加できます。</p>
+
+<p>連絡先/情報発信は、</p>
+
+<p>twitter <a href="https://twitter.com/okinawapm">@okinawapm</a></p>
+
+<p>Thank you!</p>
+]]></content>
+<id>tag:okinawa.pm.org,2016-02-24:entry-20160219.html</id>
+<published>2016-02-24T16:32:19+09:00</published>
+<updated>2016-02-24T16:32:19+09:00</updated>
+</entry>
+</feed>
