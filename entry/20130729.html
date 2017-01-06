@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    -->
+  <link rel="alternate" type="application/atom+xml" title="Atom" href="/atom.xml">
+  
+    <!-- Bootstrap core CSS -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/static/blog.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+ 
+  <title>
+    Yomitan.pm #3 開催しました | Okinawa Perl Mongers
+
+  </title>
+</head>
+<body>
+
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav">
+          <a class="blog-nav-item active" href="/">Home</a>
+          <a class="blog-nav-item" href="/archives.html">Archives</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="blog-header">
+        <h1 class="blog-title">Okinawa Perl Mongers</h1>
+        <p class="lead blog-description">沖縄県本島を中心とした、Perlユーザのグループです。</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+          <div class="blog-post">
+<nav>
+  <ul class="paginate">
+    <li class="prev">prev: <a href="/entry/20130622.html">Yomitan.pm #2 開催しました</a>
+    <li class="next">next: <a href="/entry/20130820.html">ハッカーズチャンプルー 開催のお知らせ</a>
+  </ul>
+</nav>
+
+<br> 
+
+<article>
+  <div class="entry">
+    <h2>Yomitan.pm #3 開催しました</h2>
+
+<p>第3回 Yomitan.pm 「機械学習編」を 7/27(土)に 開催しました。</p>
+
+<p><a href="http://www.gbic.jp/cafe/">GwaveCafe （沖縄県宜野湾市宇地泊558-18　宜野湾ベイサイド情報センター）</a></p>
+
+<p>にて。</p>
+
+<p><img src="/static/images/201307/kaijyo.jpg" title="kaijyo" alt="kaijyo" /></p>
+
+<p>PERLで機械学習
+機械学習アプリを作りましょう</p>
+
+<p><a href="http://kumaosan-web2.com/slides/slide01/">http://kumaosan-web2.com/slides/slide01/</a></p>
+
+<p><a href="https://twitter.com/adokoy0001">@adokoy0001 ヨコダネンさん</a>
+による、機械学習とは、という概念的なお話から、Perlでの機械学習ライブラリをどう使うか、まで。</p>
+
+<p>やはり最近、この機械学習というものはブームになっているせいか人気があるようですね。普段Perlを使わないユーザも何人かお越し頂きました!!</p>
+
+<p>内容は、テキストマイニング、教師あり学習 を中心で、MeCabで文章を解析して、SVM ( Algorithm::SVMLight ) に突っ込んで学習、評価させる、というものです。</p>
+
+<p>MeCabもsvm_lightも、インストールが若干面倒で、環境用意に大分時間を取られてしまいましたね...。
+が、実行環境が正常に整うまでって、非常に重要なノウハウなので、細かく手ほどきをうけ、全員無事環境構築が整い、これからばりばり機械学習できます！！</p>
+
+<p>途中、弾さんからのアドバイスもあり、その瞬間、メンバーが騒ぎだします</p>
+
+<p><img src="/static/images/201307/dansan.png" title="dansan" alt="dansan" /></p>
+
+<p>実際、サンプルアプリ作成前でタイムアップしてしまいましたが、ヨコダネンさん作のソースを説明頂き、質問タイム。知らないとブラックボックスに感じる機械学習も、カジュアルに使えるような気がしてきましたね。</p>
+
+<p>ですので、「Perlで機械学習」は引き続き進めて行きたいと思います！！</p>
+
+<p><img src="/static/images/201307/table2.jpg" title="table2" alt="table2" /></p>
+
+<p>Perl徹底攻略、入門 機械学習、RとRubyによるデータ解析入門、などを読むメンバー</p>
+
+<p>で、僕も何かやらなきゃという事で最後、「RとRubyによるデータ解析入門」の4章部分だけモダンPerlに書き直したやつを、Devel::NYTProfにかける、というNYTProfの紹介だけの内容を話しました。</p>
+
+<p>Mooseで書いてたんですが遅い気がしたので、MooにしてみてNYTProfしたところ、ほぼ同じか、若干Mooseのが速かった結果が出て、全体のボトルネックはオブジェクトシステムではなかったんだなー、とすっきりした感じです。</p>
+
+<p>終了後の懇親会は、にしじまさん行きつけの宜野湾「鉄鍋屋」で食事。
+おいしゅうございました!</p>
+
+<p>反省点としていくつか思ったこと。</p>
+
+<ul>
+<li>主催者なのにいちユーザとして聞き入ってしまうため、スタートしてからの写真を取り忘れる...(ヨコダネンさんの発表シーン完全に取り忘れてる...!!)</li>
+<li>1人がメインになりがちなので、もちょっと複数人で分散してもっとカジュアルにしたい</li>
+</ul>
+
+
+<p>それでは、また次回!!
+参加くださったみんなありがとう!!</p>
+
+  </div>
+  <dl class="meta">
+      <dt class="author">created by</dt>
+      <dd class="author">Masaaki Saito</dd>
+      <dt class="time">created at</dt>
+      <dd class="time"><time>2013-07-29 00:00</time></dd>
+      <dt class="author">last modified by</dt>
+      <dd class="author">Masaaki Saito</dd>
+      <dt class="time">last modified at</dt>
+      <dd class="time">2017-01-06 23:16</dd>
+  </dl>
+</article>
+          </div><!-- /.blog-post -->
+
+          <ul class="pager">
+            <li><a href="/entry/20130622.html">Previous</a></li>
+            <li><a href="/entry/20130820.html">Next</a></li>
+          </ul>
+
+        </div><!-- /.blog-main -->
+
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset">
+            <h4>Okinawa.pm</h4>
+            <p>
+            沖縄県本島を中心とするPerl ユーザのコミュニティ形成を目指す非営利の団体です。
+            主な活動内容はプログラミング言語 Perl に関係するメンバー主催の勉強会やインターネット上での啓蒙活動や情報交換です。
+            どなたでも無料で参加できます。連絡先/情報発信は、
+            <a href="https://okinawapm.connpass.com/">https://okinawapm.connpass.com/</a>
+            です。
+            </p>
+          </div>
+          <div class="sidebar-module">
+            <h4>Archives</h4>
+            <ol class="list-unstyled">
+                <li><time>2015-08-23</time> <a href="/entry/20150823.html"> YAPC::Asia Tokyo 2015 に参加しました!</a></li>
+                <li><time>2014-09-27</time> <a href="/entry/20140927.html"> Yomitan.pm #4 開催しました</a></li>
+                <li><time>2013-09-24</time> <a href="/entry/20130924.html"> YAPC::Asia Tokyo 2013 に参加しました!</a></li>
+                <li><time>2013-08-27</time> <a href="/entry/20130827.html"> ハッカーズチャンプルーに参加しました！</a></li>
+                <li><time>2013-08-20</time> <a href="/entry/20130820.html"> ハッカーズチャンプルー 開催のお知らせ</a></li>
+                <li><time>2013-07-29</time> <a href="/entry/20130729.html"> Yomitan.pm #3 開催しました</a></li>
+                <li><time>2013-06-22</time> <a href="/entry/20130622.html"> Yomitan.pm #2 開催しました</a></li>
+                <li><time>2013-05-20</time> <a href="/entry/20130520.html"> Yomitan.pm #1 開催しました！</a></li>
+                <li><time>2012-10-26</time> <a href="/entry/20121026.html"> Yomitan.pm設立しました！</a></li>
+                <!--
+              <li><a href="#">January 2014</a></li>
+              <li><a href="#">December 2013</a></li>
+              <li><a href="#">November 2013</a></li>
+              <li><a href="#">October 2013</a></li>
+              <li><a href="#">September 2013</a></li>
+              <li><a href="#">August 2013</a></li>
+              <li><a href="#">July 2013</a></li>
+              <li><a href="#">June 2013</a></li>
+              <li><a href="#">May 2013</a></li>
+              <li><a href="#">April 2013</a></li>
+              <li><a href="#">March 2013</a></li>
+              <li><a href="#">February 2013</a></li>
+              -->
+            </ol>
+          </div>
+          <div class="sidebar-module">
+            <h4>Elsewhere</h4>
+            <ol class="list-unstyled">
+              <li><a href="#">GitHub</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Facebook</a></li>
+            </ol>
+          </div>
+        </div><!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+    <div class="blog-footer">
+      <p>Blog template built for <a href="http://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <!--
+    <script src="assets/js/docs.min.js"></script>
+    -->
+ 
+
+</body>
+</html>
