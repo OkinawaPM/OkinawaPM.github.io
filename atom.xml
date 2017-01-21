@@ -5,7 +5,101 @@
 <author>masakyst</author>
 <generator uri="https://github.com/Songmu/p5-Riji" version="v0.9.8">Perl Riji</generator>
 <id>tag:okinawa.pm.org,2016-02-24:</id>
-<updated>2017-01-06T23:16:46+09:00</updated>
+<updated>2017-01-22T00:04:29+09:00</updated>
+<entry>
+<title type="text">Okinawa.pm #3 を開催しました！</title>
+<link href="http://okinawa.pm.org/entry/20170121.html" />
+<author>
+<name>K</name>
+</author>
+<content type="html">
+<![CDATA[
+
+<p>Okinawa.pmメンバーの<a href="https://twitter.com/codehex">codehex</a>です。こんばんは。</p>
+
+<p>今回初めて僕が主催で開催しました。場所は<a href="https://www.synergy-room.com/">シナジールーム</a>という場所で琉球大学東口近くのララプリモの2階にあります。</p>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">会場はこんな感じです！<a href="https://twitter.com/hashtag/okinawapm?src=hash">#okinawapm</a> <a href="https://t.co/1NyM9GYyO1">pic.twitter.com/1NyM9GYyO1</a></p>&mdash; K (@CodeHex) <a href="https://twitter.com/CodeHex/status/822657265341726721">2017年1月21日</a></blockquote>
+
+
+<p>今回のテーマは <strong>「去年 Perl で作ったもの、今年 Perl で作りたいもの」</strong> でした！</p>
+
+<p><br></p>
+
+<h2>始めの2時間はもくもく会</h2>
+
+<p>始めに参加者の皆さんで軽く挨拶をした後、ワイワイと楽しくおしゃべりをしながらコーディングを進めてました。<br/>
+僕と <a href="https://twitter.com/perlackline">sela</a> さんの被っている帽子が同じだったことに2人とも驚異を感じてました(笑)</p>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">コミュニケーション<a href="https://twitter.com/hashtag/okinawapm?src=hash">#okinawapm</a> <a href="https://t.co/T1pXvNYvkw">pic.twitter.com/T1pXvNYvkw</a></p>&mdash; K (@CodeHex) <a href="https://twitter.com/CodeHex/status/822687398869942275">2017年1月21日</a></blockquote>
+
+
+<p><br></p>
+
+<h2>そして始まるトーク会</h2>
+
+<p>ここから参加者全員で知見共有を行いました。</p>
+
+<h4><a href="https://twitter.com/yasuXS">yasu</a> さんの「<a href="https://docs.google.com/presentation/d/19fLFVLTcwHfUQDPLQEjy1d8Hd6UyOYFQJbJNTKoI3Co/pub?start=false&amp;loop=false&amp;delayms=3000">去年Perlで作ったもの今年Perlで作りたいもの</a>」です!!</h4>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/yasuXS">@yasuXS</a> さんの「去年Perlで作ったもの今年Perlで作りたいもの」の様子です！！<a href="https://twitter.com/hashtag/okinawapm?src=hash">#okinawapm</a> <a href="https://t.co/sR7AennSD2">pic.twitter.com/sR7AennSD2</a></p>&mdash; K (@CodeHex) <a href="https://twitter.com/CodeHex/status/822798215346954240">2017年1月21日</a></blockquote>
+
+
+<p>普段は業務でこういうツールを作っているよ！や、Zabbix 外部チェックスクリプトを開発したという内容の話をしてくれました。
+今年は <a href="http://rexify.org/">Rex</a> で環境を整えたり、Vagrant や Docker のラッパーツールなども開発していきたいらしいです！</p>
+
+<p><br></p>
+
+<h4><a href="https://twitter.com/aokabin_">aokabin</a> さんが「Workflowyがヤバイ」を発表してくれました！</h4>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/aokabin_">@aokabin_</a> さんの Workflowy の話の様子です！！<a href="https://twitter.com/hashtag/okinawapm?src=hash">#okinawapm</a> <a href="https://t.co/fCLueb5c2i">pic.twitter.com/fCLueb5c2i</a></p>&mdash; K (@CodeHex) <a href="https://twitter.com/CodeHex/status/822804667922944000">2017年1月21日</a></blockquote>
+
+
+<p><a href="https://workflowy.com/">WorkFlowy - Organize your brain.</a>
+アイデアをまとめる時にどんなツールを使いますか？というような質問を社会人のみなさんに投げかけながら、 workflowy がリスト上でまとめることができて、検索も素早くいいツールですよと紹介してました！</p>
+
+<p><br></p>
+
+<h4><a href="https://twitter.com/adokoy0001">adokoy</a> さんの「<a href="https://docs.google.com/presentation/d/1BWcz4NexR_5BWma35j53snkrYP6dlgekqRkI9kSCj-s/edit?usp=sharing">2016年に作ったもの2017年に作りたいもの</a>」です！</h4>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/adokoy0001">@adokoy0001</a> さんの 2016 年作ったもの、2017 年に作りたいもの！！ <a href="https://twitter.com/hashtag/okinawapm?src=hash">#okinawapm</a> <a href="https://t.co/58KC5cLE3u">pic.twitter.com/58KC5cLE3u</a></p>&mdash; K (@CodeHex) <a href="https://twitter.com/CodeHex/status/822697773183090692">2017年1月21日</a></blockquote>
+
+
+<p>去年は自分がよく使う記法を <a href="https://github.com/adokoy001/YCGL-Lite">YCGL-Lite</a> という一つのオレオレモジュールにまとめて使いやすくしたという話や、<a href="https://github.com/adokoy001/MapReduce-Framework-Simple">MapReduce::Framework::Simple</a> という MapReduce のモジュールの仕組みについて話してくれました。Mapper 側で実行するコードをどのように送っているのかという点でかなり盛り上がりがあったように感じられました!!</p>
+
+<p><br></p>
+
+<h4><a href="https://twitter.com/AnaTofuZ">AnaTofuZ</a> さんの「<a href="http://www.slideshare.net/Shimitakax/perl-71241065">Perlでつくったものとか</a>」で発表してくれました！</h4>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/AnaTofuZ">@AnaTofuZ</a> さんの<br>Perlで作ったものとか<a href="https://twitter.com/hashtag/pkinawapm?src=hash">#pkinawapm</a> <a href="https://t.co/sRxYPevTgx">pic.twitter.com/sRxYPevTgx</a></p>&mdash; K (@CodeHex) <a href="https://twitter.com/CodeHex/status/822708856274853889">2017年1月21日</a></blockquote>
+
+
+<p>Perl 入学式をきっかけで Perl を書くようになったと言う話から入って、今文字コードについて悩んでいるという話をしてくれました。<br/>
+僕はこのようにコミュニティの勉強会で〜が分からないということを伝えると、イベントの参加者の方々が一緒に解決方法を考えてくれ、またその方法が自分では思いつかないような内容だったりするので凄く良いと思いました。<br/>
+そして後半で <a href="https://metacpan.org/pod/Net::Twitter">Net::Twitter</a> を使ってツイートを投稿したりメンションを取得するスクリプトの実演をしてました！</p>
+
+<h4>最後に<a href="https://twitter.com/codehex">僕</a>の「<a href="http://www.slideshare.net/KeiKamikawa/okinawapm3-71238368">Mojolicious の拡張を考えた</a>」という発表でした。</h4>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/Mojolicious?src=hash">#Mojolicious</a> の拡張を考えた<br>by <a href="https://twitter.com/CodeHex">@CodeHex</a> <a href="https://twitter.com/hashtag/okinawapm?src=hash">#okinawapm</a> <a href="https://t.co/agx3vNxrGQ">pic.twitter.com/agx3vNxrGQ</a></p>&mdash; yasu (@yasuXS) <a href="https://twitter.com/yasuXS/status/822725351860113408">2017年1月21日</a></blockquote>
+
+
+<p>去年作ったものとして <a href="https://metacpan.org/pod/Text::Shirasu">Text::Shirasu</a> を紹介しました。使い方は<a href="http://qiita.com/Kei-Kamikawa/items/3b104f84876304e73f06">ここ</a>でも紹介してます。
+そして今年は Mojolicious + Plack::Middleware を使ってどんどん拡張していきたいという内容を話しました。</p>
+
+<p><br></p>
+
+<h2>最後の1時間</h2>
+
+<p>最後の1時間は雑談を主にしていました。sela さんが AnaTofuZ さんの文字コードに関する疑問を一緒に考えてました。「<a href="http://pointoht.ti-da.net/e7854074.html">Perl 日本語文字列の扱い</a>」を読むと分かりやすいよ！とアドバイスしてましたね！<br/>
+僕も未だに文字コード関連のコードをどのように書けばいいか悩んでしまうことが多いので、この機会にもう一度復習しようと思いました。</p>
+
+<p>今回の Okinawa.pm も凄く楽しかったです。こういった知見共有は圧倒的な成長につながるということを改めて知ることができたのでとても良い pm を開催することができたと思います。<br/>
+開催に協力してくださった Okinawa.pm のメンバー、参加してくださった aokabin さんと AnaTofuZ さん有難うございました！</p>
+]]></content>
+<id>tag:okinawa.pm.org,2017-01-21:entry-20170121.html</id>
+<published>2017-01-21T00:00:00+09:00</published>
+<updated>2017-01-22T00:04:29+09:00</updated>
+</entry>
 <entry>
 <title type="text">ハッカーズチャンプルーに参加しました！</title>
 <link href="http://okinawa.pm.org/entry/20130827.html" />
