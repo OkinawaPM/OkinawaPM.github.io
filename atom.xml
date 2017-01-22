@@ -5,7 +5,7 @@
 <author>masakyst</author>
 <generator uri="https://github.com/Songmu/p5-Riji" version="v0.9.8">Perl Riji</generator>
 <id>tag:okinawa.pm.org,2016-02-24:</id>
-<updated>2017-01-22T00:04:29+09:00</updated>
+<updated>2017-01-22T18:36:57+09:00</updated>
 <entry>
 <title type="text">Okinawa.pm #3 を開催しました！</title>
 <link href="http://okinawa.pm.org/entry/20170121.html" />
@@ -50,7 +50,7 @@
 
 <p><br></p>
 
-<h4><a href="https://twitter.com/aokabin_">aokabin</a> さんが「Workflowyがヤバイ」を発表してくれました！</h4>
+<h4><a href="https://twitter.com/aokabin_">aokabin</a> さんが「<a href="https://speakerdeck.com/aokabin/workflowygayabai">Workflowyがヤバイ</a>」を発表してくれました！</h4>
 
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/aokabin_">@aokabin_</a> さんの Workflowy の話の様子です！！<a href="https://twitter.com/hashtag/okinawapm?src=hash">#okinawapm</a> <a href="https://t.co/fCLueb5c2i">pic.twitter.com/fCLueb5c2i</a></p>&mdash; K (@CodeHex) <a href="https://twitter.com/CodeHex/status/822804667922944000">2017年1月21日</a></blockquote>
 
@@ -71,7 +71,7 @@
 
 <h4><a href="https://twitter.com/AnaTofuZ">AnaTofuZ</a> さんの「<a href="http://www.slideshare.net/Shimitakax/perl-71241065">Perlでつくったものとか</a>」で発表してくれました！</h4>
 
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/AnaTofuZ">@AnaTofuZ</a> さんの<br>Perlで作ったものとか<a href="https://twitter.com/hashtag/pkinawapm?src=hash">#pkinawapm</a> <a href="https://t.co/sRxYPevTgx">pic.twitter.com/sRxYPevTgx</a></p>&mdash; K (@CodeHex) <a href="https://twitter.com/CodeHex/status/822708856274853889">2017年1月21日</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/AnaTofuZ">@AnaTofuZ</a> さんの<br>Perlで作ったものとか<a href="https://twitter.com/hashtag/okinawapm?src=hash">#okinawapm</a> <a href="https://t.co/sRxYPevTgx">pic.twitter.com/sRxYPevTgx</a></p>&mdash; K (@CodeHex) <a href="https://twitter.com/CodeHex/status/822708856274853889">2017年1月21日</a></blockquote>
 
 
 <p>Perl 入学式をきっかけで Perl を書くようになったと言う話から入って、今文字コードについて悩んでいるという話をしてくれました。<br/>
@@ -98,7 +98,7 @@
 ]]></content>
 <id>tag:okinawa.pm.org,2017-01-21:entry-20170121.html</id>
 <published>2017-01-21T00:00:00+09:00</published>
-<updated>2017-01-22T00:04:29+09:00</updated>
+<updated>2017-01-22T18:36:57+09:00</updated>
 </entry>
 <entry>
 <title type="text">ハッカーズチャンプルーに参加しました！</title>
