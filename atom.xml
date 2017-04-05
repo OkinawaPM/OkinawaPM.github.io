@@ -2,10 +2,183 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>Okinawa Perl Mongers</title>
 <link rel="alternate" href="http://okinawa.pm.org/" />
-<author>masakyst</author>
-<generator uri="https://github.com/Songmu/p5-Riji" version="v0.9.8">Perl Riji</generator>
+<author /><generator uri="https://github.com/Songmu/p5-Riji" version="v0.9.8">Perl Riji</generator>
 <id>tag:okinawa.pm.org,2016-02-24:</id>
-<updated>2017-01-22T18:36:57+09:00</updated>
+<updated>2017-04-05T21:37:44+09:00</updated>
+<entry>
+<title type="text">Okinawa.pm #4 を開催しました！</title>
+<link href="http://okinawa.pm.org/entry/20170401.html" />
+<author>
+<name>K</name>
+</author>
+<content type="html">
+<![CDATA[
+
+<p>Okinawa.pmメンバーの<a href="https://twitter.com/codehex">codehex</a>です。こんばんは。</p>
+
+<p>今回も場所は<a href="https://www.synergy-room.com/">シナジールーム</a>という場所で琉球大学東口近くのララプリモの2階にあります。
+どういう会場かは、<a href="http://okinawa.pm.org/entry/20170121.html">前回の Okinawa.pm の記事</a>を読むと分かるはずです！</p>
+
+<p>今回のテーマは <strong>「<a href="https://okinawapm.connpass.com/event/53409/">エイプリル Perl</a>」</strong> でした！<br/>
+今回 Okinawa.pm のツイートを <a href="https://togetter.com/li/1096471">togetter</a> にてまとめましたので、そちらの方も合わせて読んでいただけると幸いです。</p>
+
+<p><br></p>
+
+<h2>始めの1時間はもくもく会</h2>
+
+<p>参加者は全員で 10 名と多かったです。<br/>
+始めに参加者の皆さんで自己紹介をした後、黙々と各自作業したり、会話を楽しんだりしていました。</p>
+
+<p><br></p>
+
+<h2>LT + Talk の時間</h2>
+
+<p>ここから参加者のうち 9 人で知見共有を行いました。</p>
+
+<h4><a href="https://twitter.com/cat2koban">cat2koban</a> さんの「<a href="https://www.slideshare.net/cat2koban/okinawapm4-74149393">ちょこっとLT</a>」</h4>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/cat2koban">@cat2koban</a> さんのちょこっとLT！！<a href="https://twitter.com/hashtag/okinawapm?src=hash">#okinawapm</a> <a href="https://twitter.com/hashtag/Perl?src=hash">#Perl</a> <a href="https://t.co/ZSnSOskvJ2">pic.twitter.com/ZSnSOskvJ2</a></p>&mdash; K (@CodeHex) <a href="https://twitter.com/CodeHex/status/848043039549304834">2017年4月1日</a></blockquote>
+
+
+<p>難読化プログラミングの話でした。この発表の中で出てきた <a href="http://search.cpan.org/~asavige/Acme-EyeDrops-1.62/lib/Acme/EyeDrops.pm">Acme::EyeDrops</a> はどんな Perl のコードもアスキート化したコードへ変形させる Acme モジュールです。それと, 自分で挑戦してみた 16 進数同士を排他的論理和を用いて行った難読化と正規表現 <code>use re 'eval'</code> を使ったコードを紹介してくれました！
+最初から面白い LT だったと思います。</p>
+
+<p><br></p>
+
+<h4><a href="https://twitter.com/touba_rumba">touba_rumba</a> さんの「<a href="https://www.slideshare.net/yutobaru/applescript-74150370">AppleScript でカレンダー共有アプリを作った話</a>」</h4>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/touba_rumba">@touba_rumba</a> さんで Applescript でカレンダー共有アプリを作った話<a href="https://twitter.com/hashtag/okinawapm?src=hash">#okinawapm</a> <a href="https://t.co/se3h69I5Ru">pic.twitter.com/se3h69I5Ru</a></p>&mdash; K (@CodeHex) <a href="https://twitter.com/CodeHex/status/848044947194339328">2017年4月1日</a></blockquote>
+
+
+<p>友人とカレンダーのイベント情報を簡単に共有するために AppleScript と Automator を使った方法を紹介してくれました。残念ながら今回、会場の無線LANの回線が悪かったためにデモを拝見することができませんでしたが、Mac 上である程度自動化したい場合に AppleScript + Automator がとても便利だということを知りました。</p>
+
+<p><br></p>
+
+<h4><a href="https://twitter.com/tompng">tompng</a> さんの「Quine の話」</h4>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/tompng">@tompng</a> さんの<br>Quine の話 <a href="https://twitter.com/hashtag/okinawapm?src=hash">#okinawapm</a> <a href="https://t.co/kzIkCjAUxg">pic.twitter.com/kzIkCjAUxg</a></p>&mdash; K (@CodeHex) <a href="https://twitter.com/CodeHex/status/848046878117707776">2017年4月1日</a></blockquote>
+
+
+<p>今回最も盛り上がったのではないでしょうか!?<br/>
+以前 <a href="https://twitter.com/tompng">tompng</a> さんはハッカーズチャンプルー2016の後夜祭にて<a href="http://tompng.github.io/mc_computing/">マインクラフトでコンピュータを作った話</a>をされた方で、今回も Quine で面白い話をしてくれました!!<br/>
+初めは Perl で Quine を作成する方法を紹介してくれたんですが、この後に今回のテーマである「エイプリルPerl」に沿うように Ruby で Perl というロゴが入った Quine プログラムを作ってくれました！なぜか湧き上がる拍手。それくらい面白かったということです!!!!!</p>
+
+<p>ちゃんとコードも共有してくれました!!(圧倒的感謝!!)</p>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">書いたQuine <a href="https://twitter.com/hashtag/okinawapm?src=hash">#okinawapm</a><a href="https://t.co/SDbVZbK291">https://t.co/SDbVZbK291</a><a href="https://t.co/3hK5Je0ndv">https://t.co/3hK5Je0ndv</a></p>&mdash; ぺんさん！ (@tompng) <a href="https://twitter.com/tompng/status/848050427903959041">2017年4月1日</a></blockquote>
+
+
+<p><br></p>
+
+<h4><a href="https://twitter.com/mayutsuna">mayutsuna</a> さんの「<a href="https://t.co/RnOOwox63x">閲覧者による Webpage 評価・検索システムの構築（概説）</a>」</h4>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/mayutsuna">@mayutsuna</a> さん<br>卒研でやりたいことの考察 <a href="https://twitter.com/hashtag/okinawapm?src=hash">#okinawapm</a> <a href="https://t.co/0KHYN7LdOs">pic.twitter.com/0KHYN7LdOs</a></p>&mdash; K (@CodeHex) <a href="https://twitter.com/CodeHex/status/848050734910144512">2017年4月1日</a></blockquote>
+
+
+<p>2018年度の卒研で Webpage を評価するための新しいプラットフォームを考察しているという話をしてくれました！<br/>
+今はまだサービスをどのような構成で作成していこうか悩んでいる途中だということで、どういうものがいいですか？と質問していくスタイルでした。<br/>
+こういうコミュニティに参加するメリットは、「現役のエンジニア達へ分からないことを質問することができる」というのが一つあると思っているので非常に良いスタイルだったと思いました。<br/>
+僕は Web フレームワークは Perl が良いよ！とアドバイスしておきました👍</p>
+
+<p><br></p>
+
+<h4><a href="https://twitter.com/yasuXS">yasuXS</a> さんの「MinillaでXSモジュールを作る」</h4>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/yasuXS">@yasuXS</a> さんの<br>MinillaでXSモジュールを作る<a href="https://twitter.com/hashtag/okinawapm?src=hash">#okinawapm</a> <a href="https://t.co/Us3eOuwscM">pic.twitter.com/Us3eOuwscM</a></p>&mdash; K (@CodeHex) <a href="https://twitter.com/CodeHex/status/848054950571552768">2017年4月1日</a></blockquote>
+
+
+<p>Minilla を使った XS モジュールの作り方を紹介してくれました。まずは <code>cpanm Minilla</code> で Minilla をインストールから始まり、XS の基礎の方まで教えてもらいました！</p>
+
+<ul>
+<li><code>void sum(...)</code> など引数の数を取得するには <code>items</code> という変数を用いる</li>
+<li><code>ST(0) = value</code> の後に <code>XSRETURN(1)</code> で値を一つ return する</li>
+<li>配列を return する場合、配列の i 番目を <code>ST(i)</code> へ代入し、その数分 <code>XSRETURN(len)</code> とする</li>
+</ul>
+
+
+<p>など、かなり内容も面白く XS って思っていたよりも敷居が低いんだなぁと思える内容になっていました！</p>
+
+<p><br></p>
+
+<h4><a href="https://twitter.com/codehex">codehex</a> さんの「<a href="https://www.slideshare.net/KeiKamikawa/xs-74135533">XS を始めよう！</a>」</h4>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/CodeHex">@CodeHex</a> さんで XS を始めよう！<a href="https://twitter.com/hashtag/okinawapm?src=hash">#okinawapm</a> <a href="https://t.co/1iOUqbJafk">pic.twitter.com/1iOUqbJafk</a></p>&mdash; U (@touba_rumba) <a href="https://twitter.com/touba_rumba/status/848062045480038400">2017年4月1日</a></blockquote>
+
+
+<p>yasuXS さんのトークが XS モジュールを作成する為の基礎的な内容だということを知ったので、それに合わせて XS のモジュールを作る上で、覚えたほうがいい「型」、「参照カウント」、「揮発性をするときに注意すべきこと」を紹介しました。<br/>
+これから XS 始めるぞ！という方はこのスライドがきっと役に立つはずです！</p>
+
+<p><br></p>
+
+<h4><a href="https://twitter.com/AnaTofuZ">AnaTofuZ</a> さんの「<a href="https://speakerdeck.com/anatofuz/perlmongerfalsesheng-tai-nituite-okinawa-dot-pm-number-4#">PerlMonger の生態について</a>」</h4>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/AnaTofuZ">@AnaTofuZ</a> さんの<br>PerlMonger の生態について <a href="https://twitter.com/hashtag/okinawapm?src=hash">#okinawapm</a> <a href="https://t.co/mf91m4pm3s">pic.twitter.com/mf91m4pm3s</a></p>&mdash; K (@CodeHex) <a href="https://twitter.com/CodeHex/status/848067436473483266">2017年4月1日</a></blockquote>
+
+
+<p>内容が非常に狂ってたと個人的には思いました。</p>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/AnaTofuZ">@AnaTofuZ</a> 氏完全に狂ってる <a href="https://twitter.com/hashtag/okinawapm?src=hash">#okinawapm</a> <a href="https://twitter.com/hashtag/Perl?src=hash">#Perl</a></p>&mdash; K (@CodeHex) <a href="https://twitter.com/CodeHex/status/848068231898177536">2017年4月1日</a></blockquote>
+
+
+<p>Perl Monger はプログラム書くのが好きだろう -> プログラム書くのが好きな人は 🍣 が好きだろう。<br/>
+つまり、Perl Monger は 🍣 が好きだろう。とこじ付けた上になんと最新作の Acme モジュールを紹介してくれました。<br/>
+<a href="https://metacpan.org/pod/Acme::HowToMakeSushi">Acme::HowToMakeSushi</a> です。<br/>
+このネタ元は以下のツイートらしいです。</p>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="und" dir="ltr"><a href="https://t.co/mbwbVpCJ56">pic.twitter.com/mbwbVpCJ56</a></p>&mdash; Molg H. (@molgh) <a href="https://twitter.com/molgh/status/726854917214879744">2016年5月1日</a></blockquote>
+
+
+<p>ツイートの内容があんまり良くわからなかったのですが、Acme モジュールの方では、Perl プログラムが正常終了した場合ちゃんとした 🍣 を作ることができ、失敗した場合は 🍣 を作ることも失敗するようです。また <a href="https://metacpan.org/pod/Acme::HowToMakeSushi::Photo">Acme::HowToMakeSushi::Photo</a> という画像のバイナリを吐き出してくれるモジュールも同時に作ったそうなので、以下のコードで試してみましょう！<br/>
+<code>perl -MAcme::HowToMakeSushi -e ''</code><br/>
+<code>perl -MAcme::HowToMakeSushi -e 'exit 1'</code></p>
+
+<p>勢いのある LT でとても面白かったです！</p>
+
+<p><br></p>
+
+<h4><a href="https://twitter.com/perlackline">perlackline</a> さんの「サブルーチンと引数と@_とエイリアス」</h4>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr"><a href="https://twitter.com/perlackline">@perlackline</a> さんの<br>サブルーチンと引数と<a href="https://twitter.com/_">@_</a> とエイリアスです！<a href="https://twitter.com/hashtag/okinawapm?src=hash">#okinawapm</a> <a href="https://twitter.com/hashtag/Perl?src=hash">#Perl</a> <a href="https://t.co/ZDukgPbgLx">pic.twitter.com/ZDukgPbgLx</a></p>&mdash; K (@CodeHex) <a href="https://twitter.com/CodeHex/status/848072791760883712">2017年4月1日</a></blockquote>
+
+
+<p>案外知らないサブルーチンの <code>@_</code> の正体についてのトークでした。<br/>
+僕自身も Perl を始めて、サブルーチン部分を学んでいる時に引数のあり方についてはとても悩みました。一番衝撃的だったのが、引数をなぜ配列で受け取らなければならないんだ!?ということでした。<br/>
+この辺の完全な理解はつい最近知ったことだったので、復習としての意味でもいいトークでした。</p>
+
+<p><br></p>
+
+<h4><a href="https://twitter.com/adokoy0001">adokoy0001</a> さんの「<a href="http://adokoy.hatenablog.com/entry/2017/04/02/171620">Quineチャレンジ</a>」</h4>
+
+<p>元々、Quine のネタをやろうとしていたところ、tompng さんと被ってしまったということでしたが、すごく面白かったです。<br/>
+このトークでは、Quine を実現するための注意として僕が解釈した範囲では</p>
+
+<ul>
+<li>eval が必要であること</li>
+<li>繰り返すたびに少しずつコードが変更していくこと</li>
+<li>コードを追記しても全体に悪影響が出ないこと</li>
+</ul>
+
+
+<p>が重要なんだと理解しました。（間違えていたら <a href="https://twitter.com/codehex">codehex</a> まで連絡を！！）</p>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">Quine で交流してます！<a href="https://twitter.com/hashtag/okinawapm?src=hash">#okinawapm</a> <a href="https://t.co/lHRnb9qeN1">pic.twitter.com/lHRnb9qeN1</a></p>&mdash; K (@CodeHex) <a href="https://twitter.com/CodeHex/status/848072064774750208">2017年4月1日</a></blockquote>
+
+
+<p><br></p>
+
+<h2>最後の 30 分</h2>
+
+<p>今回も余った最後の 30 分は雑談を主にしていました。<br/>
+特に Quine とサブルーチンの <code>@_</code> の話題で盛り上がったため、これらの話をしていたと思います。<br/>
+今回とても感じたこととして、Okinawa.pm は Perl Monger によるイベントではありますが、コミュニティの言語だけで話題を仕切るのは非常にもったいないということです。 tompng さんは普段 <a href="http://ruby.okinawa/">Okinawa.rb</a> で活動されている方ですが、今回参加してもらったことで Okinawa.pm 内でも知見が広くなったように感じました。そこで思い出したのが「<a href="http://soudai.hatenablog.com/entry/2017/03/18/223005">敢えてアウェーで戦う事に意味があるって話</a>」で、このブログ内にも書いてあるように、僕も Okinawa.pm 以外の場でも知見を共有して自分の成長に大きく関わるようにしていけるといいなと思えました。</p>
+
+<p>今回もすごく楽しかったです。<br/>
+開催に協力してくださった Okinawa.pm のメンバー、参加してくださった皆さんありがとうございました！</p>
+]]></content>
+<id>tag:okinawa.pm.org,2017-04-05:entry-20170401.html</id>
+<published>2017-04-05T21:37:44+09:00</published>
+<updated>2017-04-05T21:37:44+09:00</updated>
+</entry>
 <entry>
 <title type="text">Okinawa.pm #3 を開催しました！</title>
 <link href="http://okinawa.pm.org/entry/20170121.html" />
