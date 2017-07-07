@@ -2,9 +2,186 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>Okinawa Perl Mongers</title>
 <link rel="alternate" href="http://okinawa.pm.org/" />
-<author /><generator uri="https://github.com/Songmu/p5-Riji" version="v0.9.8">Perl Riji</generator>
+<author>masakyst</author>
+<generator uri="https://github.com/Songmu/p5-Riji" version="v0.9.8">Perl Riji</generator>
 <id>tag:okinawa.pm.org,2016-02-24:</id>
-<updated>2017-04-05T21:37:44+09:00</updated>
+<updated>2017-06-24T16:31:51+09:00</updated>
+<entry>
+<title type="text">Okinawa.pm #5 を実施しました。</title>
+<link href="http://okinawa.pm.org/entry/20170617.html" />
+<author>
+<name>yasu47b</name>
+</author>
+<content type="html">
+<![CDATA[
+
+<p>Okinawa.pmメンバーの<a href="https://twitter.com/yasu47b">yasu47b</a>です。こんばんは。</p>
+
+<p>先日開催されたOkinawa.pm #5 (<a href="https://okinawapm.connpass.com/event/56419/">connpass</a>)の様子をお伝えします。</p>
+
+<p>今回のテーマは「チャンプルーPerl」で東京から３名の現役Perlエンジニアをお招きしました。</p>
+
+<p>タイムテーブルは以下です。</p>
+
+<p>タイムテーブル</p>
+
+<table>
+<thead>
+<tr>
+<th>時間</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>16:00 ~ 16:10 </td>
+<td> オープニング @codehex</td>
+</tr>
+<tr>
+<td>16:10 ~ 16:30 </td>
+<td> トーク 20 分 @aokabin</td>
+</tr>
+<tr>
+<td>16:30 ~ 17:00 </td>
+<td> トーク 30 分 @karupanerura</td>
+</tr>
+<tr>
+<td>17:10 ~ 17:15 </td>
+<td> 休憩 5 分</td>
+</tr>
+<tr>
+<td>17:15 ~ 18:40 </td>
+<td> トーク 60 分 @moznion</td>
+</tr>
+<tr>
+<td>18:50 ~ 19:15 </td>
+<td> トーク 25 分 @<strong>papix</strong></td>
+</tr>
+</tbody>
+</table>
+
+
+<p><br><br></p>
+
+<h2>Okinawa.pm #5 始まる</h2>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">はじまった！ <a href="https://twitter.com/hashtag/okinawapm?src=hash">#okinawapm</a></p>&mdash; かるぱねるら (@karupanerura) <a href="https://twitter.com/karupanerura/status/875975232296583169">2017年6月17日</a></blockquote>
+
+
+<p> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+<h3>1発目は <a href="https://twitter.com/aokabin_">aokabin</a> さんの「最近あったこと」</h3>
+
+<p><img src="/static/images/20170617/keep_projector_line.jpg" title="プロジェクタ接続を維持" alt="projector keeping" /></p>
+
+<p>「最近あったこと」というタイトルでbitcoin, 電子書籍のダウンロード機能を作った、そして機械学習を最近やってるよ的な話をされていました。</p>
+
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">オチが見えるwww <a href="https://twitter.com/hashtag/Okinawapm?src=hash">#Okinawapm</a></p>&mdash; 八雲アナグラ (@AnaTofuZ) <a href="https://twitter.com/AnaTofuZ/status/875976464868417536">2017年6月17日</a></blockquote>
+
+
+<p> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+
+<p>bitcoinの話では、投資目的での売買とその結果から考えたことなどの知見を共有してくれました。</p>
+
+<p>電子書籍のダウンロード機能では、大学で提供している電子書籍サービスの保存機能が不便なため、保存機能のプラグインを作成してダウンロードを簡単にするというものでした。具体的には、書籍はcanvasとして表示されるため、それをbase64形式にしてjpeg保存することを書籍のそれぞれのページに対して、順次実行するというものです。</p>
+
+<p>canvasをjpegに変換する処理の実行間隔によって、同じページが保存されてしまうため、多めに保存間隔を取ることで、重複は解消されたそうです。</p>
+
+<p><br></p>
+
+<h3>会場プロジェクタのトラブル</h3>
+
+<p>会場のプロジェクタの調子が悪く、接続ケーブルを程よく維持しないと写ってくれません。</p>
+
+<p>(程よくが結構難しいようで、色がすごいファンシーな感じでアメリカンでした）</p>
+
+<p>そのため、@aokabin さん、@karupanerura さんのトーク中は、@CodeHex が写真のようにいい感じにケーブルを接続を維持していました。</p>
+
+<h3><a href="https://twitter.com/karupanerura">karupanerura</a> さんによる「<a href="https://www.slideshare.net/karupanerura/anikiinternal">Aniki::Internal</a>」</h3>
+
+<p><img src="/static/images/20170617/karupanerura_who.jpg" title="トークタイトル" alt="トークタイトル" /></p>
+
+<p>(* 赤い服の人は @CodeHexで @karupaneruraではありません)</p>
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/hQBbmzSSUR47We" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+
+<p> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/karupanerura/anikiinternal" title="Aniki::Internal" target="_blank">Aniki::Internal</a> </strong> from <strong><a target="_blank" href="https://www.slideshare.net/karupanerura">karupanerura </a></strong> </div></p>
+
+<p>ORマッパ（DB操作を簡単にするモジュール）Anikiの内部構造に焦点を当て、Aniki作成時のコンセプトやパフォーマンス改善のための考察があり、とても興味深かったです。</p>
+
+<p>スライドも内容が把握しやすいので、モジュール作成に興味があるなら目を通すことをオススメします。</p>
+
+<h3>プロジェクトを直結する</h3>
+
+<p><img src="/static/images/20170617/projector_setting.jpg" title="プロジェクタ調整中" alt="projector setting" /></p>
+
+<p>途中で @aokabin さんが長いケーブルを仕入れてきました。 ありがとう。！</p>
+
+<p>(@mozinion さんの発表からは、写真のように直結です）</p>
+
+<h3><a href="https://twitter.com/moznion">moznion</a>さんの「mail_form.cgi refactoring strikes back」</h3>
+
+<p><img src="/static/images/20170617/moznion_talk_title.jpg" title="トークタイトル" alt="トークタイトル" /></p>
+
+<p>YAPC::Kansai でのDanさんとmoznion さんによるスペシャルセッション 「mail_form.cgi reborn」 の残りをやりきるということで、「mail_form.cgi refactoring strikes back」というタイトルで発表が始まりました。</p>
+
+<p>send_mailのモックを作るところから、plack化をして段階的にモジュール化する過程をライブコーディングで見ることができて勉強になりました。</p>
+
+<p>ドメイン駆動の雰囲気がありましたが、この辺り全然わからないですが、漠然と「良さそう」という気持ちを持ちつつ編集過程を見ていました。</p>
+
+<p>コミットの粒度がちょうど良い感じで、コミットメッセージもわかりやすいのはいいですね。</p>
+
+<p>時間の関係上で後半は要所の説明が主になっていましたが、レガシーなプログラムをモダンにする過程を観察できて良かったです。</p>
+
+<p><a href="https://github.com/moznion/yapckansai2017-special-session-base/tree/refactoring">githubのコード</a></p>
+
+<p>上記のrefactoringブランチを過去から一つずつコミットをたどることで、レファクタリングの過程を見ることができます。</p>
+
+<h4><a href="https://twitter.com/__papix__">papix</a>さんの「Dockerで作るPerlなWebアプリケーションの開発環境或いはAmon2入門みたいな...」</h4>
+
+<p><img src="/static/images/20170617/papix_talk_title.jpg" title="トークタイトル" alt="トークタイトル" /></p>
+
+<p>いよいよpapixさん発表時間です。</p>
+
+<p>発表開始まで４回ほどモニタのケーブルと接続するとmacが落ちるという困難を乗り換えつつ、発表が始まりました。</p>
+
+<p>dockerとcomposerで良さげな開発環境を構築できるという話でした。</p>
+
+<p>コンテナ側からdockerへ通信ができるというのはしらなかったので、勉強になりました。</p>
+
+<p>docker は一時期触っていたのですが、なんか発表を聞くとやって見たさを感じました。</p>
+
+<p><br><br></p>
+
+<h3>そして始まる懇親会</h3>
+
+<p>乾杯用に瓶ビール６注文したら、ジムビームのハイボールが登場というハプニング。</p>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">美味かったぞ <a href="https://twitter.com/hashtag/okinawapm?src=hash">#okinawapm</a> <a href="https://t.co/orQCfWbhEK">pic.twitter.com/orQCfWbhEK</a></p>&mdash; K (@CodeHex) <a href="https://twitter.com/CodeHex/status/876123922080464896">June 17, 2017</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p><br><br></p>
+
+<p>みんな良い雰囲気でワイワイ</p>
+
+<p><br><br></p>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">Perl okinawa.pm 懇親会、最高だったというほかない <a href="https://twitter.com/hashtag/okinawapm?src=hash">#okinawapm</a> <a href="https://t.co/vWqcTsMGJI">pic.twitter.com/vWqcTsMGJI</a></p>&mdash; セラ (@perlackline) <a href="https://twitter.com/perlackline/status/876115309777768448">June 17, 2017</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+]]></content>
+<id>tag:okinawa.pm.org,2017-06-24:entry-20170617.html</id>
+<published>2017-06-17T00:00:00+09:00</published>
+<updated>2017-06-24T16:31:51+09:00</updated>
+</entry>
 <entry>
 <title type="text">Okinawa.pm #4 を開催しました！</title>
 <link href="http://okinawa.pm.org/entry/20170401.html" />
